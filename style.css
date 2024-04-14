@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: #f6f6f6;
+}
+
+strong {
+
+    color: #b734eb;
+}
+
+/* Estilo base para o link------------------------------------------------------------------------------github */
+a.github-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #b4b4b4;
+    border: 2px solid #b4b4b4;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Efeito de hover */
+  a.github-link:hover {
+    background-color: #ffffff;
+    color: #b734eb;
+  }
+  
+  /* Efeito de foco (quando o link é acessado via teclado, por exemplo) */
+  a.github-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(88, 87, 87, 0.3);
+  }
+  
+  /* Efeito de clique */
+  a.github-link:active {
+    transform: translateY(1px);
+  }
+  
+  /* Estilo base para o link---------------------------------------------------------------------------linkedin */
+a.linkedin-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #b4b4b4;
+  border: 2px solid #b4b4b4;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Efeito de hover */
+a.linkedin-link:hover {
+  background-color: #ffffff;
+  color: #b734eb;
+}
+
+/* Efeito de foco (quando o link é acessado via teclado, por exemplo) */
+a.linkedin-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(88, 87, 87, 0.3);
+}
+
+/* Efeito de clique */
+a.linkedin-link:active {
+  transform: translateY(1px);
+}
+
+  /* Estilo base para o link-------------------------------------------------------------------------whatsapp */
+  a.whatsapp-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #b4b4b4;
+    border: 2px solid #b4b4b4;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Efeito de hover */
+  a.whatsapp-link:hover {
+    background-color: #ffffff;
+    color: #b734eb;
+  }
+  
+  /* Efeito de foco (quando o link é acessado via teclado, por exemplo) */
+  a.whatsapp-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(88, 87, 87, 0.3);
+  }
+  
+  /* Efeito de clique */
+  a.whatsapp-link:active {
+    transform: translateY(1px);
+  }
+
+
+/* Estilo para o contêiner do círculo------------------------------------------------------------foto principal*/
+.circle-container {
+  position: fixed;  /* deixa a imagem fixa mesmo que a página se movimente*/
+  top: 50px;
+  right: 90px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden; /* corta as partes excedentes da imagem selecionada para o circulo*/
+}
+
+/* Estilo para a imagem dentro do círculo */
+.circle-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
