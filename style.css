@@ -1,4 +1,16 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.apresentacao{
+                            /*Continuar aqui ----------------*************************------------------------------- */
+  display:flex;
+}
+
 body {
+  height: 250vh;   /*define a altura da tela 100 é o padrão*/
+  box-sizing: border-box; /*é uma configuração padrão que faz com que a propriedade FILHO não saia da propriedade PAi*/
     background-color: black;
     color: #f6f6f6;
 }
@@ -87,6 +99,8 @@ a.linkedin-link:active {
     box-shadow: 0 0 0 3px rgba(88, 87, 87, 0.3);
   }
   
+
+
   /* Efeito de clique */
   a.whatsapp-link:active {
     transform: translateY(1px);
